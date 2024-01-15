@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- others -->
+    <meta charset="utf-8" />
+    <title>Yollaine - 50 Years</title>
+    <meta name="description" content="Enigmas for the 50th bday of MICS 2022 Xmas event">
+    <meta name="author" content="Paul Dubois">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h2>Enigmes</h2>
+        <h3>50 ans de</h3>
+        <h1>Yollaine</h1>
+    </header>
+    <main>
+        <div class="enigma" id="enigma0">
+            <div class="title">
+                <h4>Enigma 1:</h4>
+                <p>Le père de Tom...</p>
+            </div>
+            <div class="input">
+                <label for="password0">Answer:</label>
+                <input type="password0" id="password0" name="password0" onchange="checkPassword0()" />
+                <button type="button" onclick="checkPassword0()">Submit</button>
+            </div>
+            <div class="status">
+                <img src="checked.svg" class="finished" id="enigma0-check">
+                <img src="not_checked.svg" class="not-finished" id="enigma0-no-check">
+            </div>
+        </div>
+
+        <div class="enigma" id="enigma1">
+            <div class="title">
+                <h4>Enigma 2:</h4>
+                <p>Moins = Plus?</p>
+            </div>
+            <div class="input">
+                <label for="password1">Answer:</label>
+                <input type="password1" id="password1" name="password1" onchange="checkPassword1()" />
+                <button type="button" onclick="checkPassword1()">Submit</button>
+            </div>
+            <div class="status">
+                <img src="checked.svg" class="finished" id="enigma1-check">
+                <img src="not_checked.svg" class="not-finished" id="enigma1-no-check">
+            </div>
+        </div>
+
+        <div class="enigma" id="enigma2">
+            <div class="title">
+                <h4>Enigma 3:</h4>
+                <p>Qui suis-je?</p>
+            </div>
+            <div class="input">
+                <label for="password2">Answer:</label>
+                <input type="password2" id="password2" name="password2" onchange="checkPassword2()" />
+                <button type="button" onclick="checkPassword2()">Submit</button>
+            </div>
+            <div class="status">
+                <img src="checked.svg" class="finished" id="enigma2-check">
+                <img src="not_checked.svg" class="not-finished" id="enigma2-no-check">
+            </div>
+        </div>
+
+        <div class="enigma" id="enigma3">
+            <div class="title">
+                <h4>Enigma 4:</h4>
+                <p>Rébu</p>
+            </div>
+            <div class="input">
+                <label for="password3">Answer:</label>
+                <input type="password3" id="password3" name="password3" onchange="checkPassword3()" />
+                <button type="button" onclick="checkPassword3()">Submit</button>
+            </div>
+            <div class="status">
+                <img src="checked.svg" class="finished" id="enigma3-check">
+                <img src="not_checked.svg" class="not-finished" id="enigma3-no-check">
+            </div>
+        </div>
+
+        <div class="enigma" id="enigma4">
+            <div class="title">
+                <h4>Enigma 5:</h4>
+                <p>Un dessin?</p>
+            </div>
+            <div class="input">
+                <label for="password4">Answer:</label>
+                <input type="password4" id="password4" name="password4" onchange="checkPassword4()" />
+                <button type="button" onclick="checkPassword4()">Submit</button>
+            </div>
+            <div class="status">
+                <img src="checked.svg" class="finished" id="enigma4-check">
+                <img src="not_checked.svg" class="not-finished" id="enigma4-no-check">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© Venerque 2024</p>
+    </footer>
+</body>
+<script src="hash.js"></script>
+<script src="finish_script.js"></script>
+<script src="script.js"></script>
+
+</html>
