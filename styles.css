@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    color: orange;
+    font-size: 1.8em;
+}
+h1{
+    text-align: center;
+    color: orangered;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+.enigma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
+}
+h4{
+    margin: 0;
+    margin-right: 0.5em;
+}
+p{
+    margin: 0;
+}
+.finished{
+    height: 2.5em;
+}
+.not-finished{
+    height: 2.5em;
+}
+footer{
+    margin-top: 5em;
+}
