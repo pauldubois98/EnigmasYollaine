@@ -1,0 +1,4 @@
+# ignore tex generated files
+*.aux
+*.log
+*.gz
