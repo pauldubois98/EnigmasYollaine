@@ -6,6 +6,8 @@ import os
 folder_in = "pictures/"
 folder_out = "cartoons/"
 for file_name in os.listdir(folder_in):
+    if file_name[0] == ".":
+        continue
     f_in  = f"{folder_in}/{file_name}"
     f_out  = f"{folder_out}/{file_name}"
     print(f_in, f_out)
